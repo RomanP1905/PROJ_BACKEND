@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.roman.project2.MainActivity">
+
+        <TextView
+            android:id="@+id/team1naam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/team1score"
+            android:layout_alignLeft="@+id/team1plus"
+            android:layout_alignStart="@+id/team1plus"
+            android:text="Team 1"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="42dp"
+            android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@+id/team2naam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/team1naam"
+        android:layout_alignBottom="@+id/team1naam"
+        android:layout_alignEnd="@+id/resetknop"
+        android:layout_alignRight="@+id/resetknop"
+        android:text="Team 2"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <Button
+        android:id="@+id/resetknop"
+        android:layout_width="281dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:onClick="herstartSpel"
+        android:text="(Her)Start Spel"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <TextView
+        android:id="@+id/team1score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/team1plus"
+        android:layout_alignLeft="@+id/team1naam"
+        android:layout_alignStart="@+id/team1naam"
+        android:layout_marginBottom="119dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:text="0"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <TextView
+        android:id="@+id/team2score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/team2naam"
+        android:layout_alignRight="@+id/team2naam"
+        android:layout_below="@+id/team1naam"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="0"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <Button
+        android:id="@+id/team1plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/team2plus"
+        android:layout_alignBottom="@+id/team2plus"
+        android:layout_alignLeft="@+id/resetknop"
+        android:layout_alignStart="@+id/resetknop"
+        android:onClick="updateScores"
+        android:text="Team 1 Wint"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <Button
+        android:id="@+id/team2plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gelijkspelplus"
+        android:layout_alignEnd="@+id/resetknop"
+        android:layout_alignRight="@+id/resetknop"
+        android:layout_marginBottom="15dp"
+        android:onClick="updateScores"
+        android:text="Team 2 Wint"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <Button
+        android:id="@+id/gelijkspelplus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/resetknop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:onClick="updateScores"
+        android:text="Gelijkspel"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    </RelativeLayout>
+
