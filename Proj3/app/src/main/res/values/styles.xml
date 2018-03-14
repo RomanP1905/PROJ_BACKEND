@@ -1,0 +1,31 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- vragen boven op elkaar -->
+    <style name="vraag_container_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <!-- stijl van de vraag -->
+    <style name="vraag_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <!-- stijl van de radio knop -->
+    <style name="vraag_radio_button_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+</resources>

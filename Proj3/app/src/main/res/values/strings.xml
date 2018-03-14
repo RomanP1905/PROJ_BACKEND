@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Project 3: GTA: San Andreas Quiz</string>
+
+    <string name="vraag_1">1. Na hoeveel jaar kwam CJ terug van de oostkust?</string>
+    <string name="antwoord_1_1">5 Jaren</string>
+    <string name="antwoord_1_2">7 Jaren</string>
+    <string name="antwoord_1_3">3 Jaren</string>
+
+    <string name="vraag_2">2. In welk jaar begint het spel?</string>
+    <string name="antwoord_2_1">1995</string>
+    <string name="antwoord_2_2">1998</string>
+    <string name="antwoord_2_3">1992</string>
+
+    <string name="vraag_3">3. Waar staat \"CJ\" voor?</string>
+    <string name="antwoord_3_1">Calvin Jeremy</string>
+    <string name="antwoord_3_2">Carl Johnson</string>
+    <string name="antwoord_3_3">Colin Jameson</string>
+
+    <string name="vraag_4">4. Wat is Sweet zijn echte naam?</string>
+    <string name="antwoord_4_1">Lance Jameson</string>
+    <string name="antwoord_4_2">Sean Johnson</string>
+    <string name="antwoord_4_3">Eddie Tenpenny</string>
+
+    <string name="vraag_5">5. Wat voor een auto heeft Sweet?</string>
+    <string name="antwoord_5_1">Greenwood</string>
+    <string name="antwoord_5_2">Glendale</string>
+    <string name="antwoord_5_3">Sabre</string>
+
+    <string name="vraag_6">6. Waar werkt OG Loc</string>
+    <string name="antwoord_6_1">Cluckin\' Bell</string>
+    <string name="antwoord_6_2">Burger Shot</string>
+    <string name="antwoord_6_3">Binco</string>
+
+    <string name="vraag_7">7. Wat bestelt Big Smoke tijdens de missie \"Drive Thru\"</string>
+    <string name="antwoord_7_1">2 nummer 9s, een nummer 9 large, een nummer 6 met extra dip, een nummer 7, 2 nummer 45s een met kaas en een grote frisdrank.</string>
+    <string name="antwoord_7_2">Een salade</string>
+    <string name="antwoord_7_3">25 taco\'s</string>
+
+</resources>

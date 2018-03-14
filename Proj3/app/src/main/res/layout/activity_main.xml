@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.roman.proj3.MainActivity"
+        android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/vraag_1_container"
+        style="@style/vraag_container_style">
+
+        <TextView
+            style="@style/vraag_style"
+            android:text="@string/vraag_1"/>
+        <RadioGroup
+            android:id="@+id/vraag_1_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/antwoord_1_1"
+                android:text="@string/antwoord_1_1"
+                style="@style/vraag_radio_button_style"
+                />
+            <RadioButton
+                android:id="@+id/antwoord_1_2"
+                android:text="@string/antwoord_1_2"
+                style="@style/vraag_radio_button_style"
+                />
+            <RadioButton
+                android:id="@+id/antwoord_1_3"
+                android:text="@string/antwoord_1_3"
+                style="@style/vraag_radio_button_style"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vraag_2_container"
+            style="@style/vraag_container_style">
+
+            <TextView
+                style="@style/vraag_style"
+                android:text="@string/vraag_2"/>
+            <RadioGroup
+                android:id="@+id/vraag_2_radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/antwoord_2_1"
+                    android:text="@string/antwoord_2_1"
+                    style="@style/vraag_radio_button_style"
+                    />
+                <RadioButton
+                    android:id="@+id/antwoord_2_2"
+                    android:text="@string/antwoord_2_2"
+                    style="@style/vraag_radio_button_style"
+                    />
+                <RadioButton
+                    android:id="@+id/antwoord_2_3"
+                    android:text="@string/antwoord_2_3"
+                    style="@style/vraag_radio_button_style"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vraag_3_container"
+            style="@style/vraag_container_style">
+
+            <TextView
+                style="@style/vraag_style"
+                android:text="@string/vraag_3"/>
+            <RadioGroup
+                android:id="@+id/vraag_3_radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/antwoord_3_1"
+                    android:text="@string/antwoord_3_1"
+                    style="@style/vraag_radio_button_style"
+                    />
+                <RadioButton
+                    android:id="@+id/antwoord_3_2"
+                    android:text="@string/antwoord_3_2"
+                    style="@style/vraag_radio_button_style"
+                    />
+                <RadioButton
+                    android:id="@+id/antwoord_3_3"
+                    android:text="@string/antwoord_3_3"
+                    style="@style/vraag_radio_button_style"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vraag_4_container"
+            style="@style/vraag_container_style">
+
+            <TextView
+                style="@style/vraag_style"
+                android:text="@string/vraag_4"/>
+            <RadioGroup
+                android:id="@+id/vraag_4_radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/antwoord_4_1"
+                    android:text="@string/antwoord_4_1"
+                    style="@style/vraag_radio_button_style"
+                    />
+                <RadioButton
+                    android:id="@+id/antwoord_4_2"
+                    android:text="@string/antwoord_4_2"
+                    style="@style/vraag_radio_button_style"
+                    />
+                <RadioButton
+                    android:id="@+id/antwoord_4_3"
+                    android:text="@string/antwoord_4_3"
+                    style="@style/vraag_radio_button_style"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vraag_5_container"
+            style="@style/vraag_container_style">
+
+            <TextView
+                style="@style/vraag_style"
+                android:text="@string/vraag_5"/>
+            <RadioGroup
+                android:id="@+id/vraag_5_radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/antwoord_5_1"
+                    android:text="@string/antwoord_5_1"
+                    style="@style/vraag_radio_button_style"
+                    />
+                <RadioButton
+                    android:id="@+id/antwoord_5_2"
+                    android:text="@string/antwoord_5_2"
+                    style="@style/vraag_radio_button_style"
+                    />
+                <RadioButton
+                    android:id="@+id/antwoord_5_3"
+                    android:text="@string/antwoord_5_3"
+                    style="@style/vraag_radio_button_style"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vraag_6_container"
+            style="@style/vraag_container_style">
+
+            <TextView
+                style="@style/vraag_style"
+                android:text="@string/vraag_6"/>
+            <RadioGroup
+                android:id="@+id/vraag_6_radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/antwoord_6_1"
+                    android:text="@string/antwoord_6_1"
+                    style="@style/vraag_radio_button_style"
+                    />
+                <RadioButton
+                    android:id="@+id/antwoord_6_2"
+                    android:text="@string/antwoord_6_2"
+                    style="@style/vraag_radio_button_style"
+                    />
+                <RadioButton
+                    android:id="@+id/antwoord_6_3"
+                    android:text="@string/antwoord_6_3"
+                    style="@style/vraag_radio_button_style"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vraag_7_container"
+            style="@style/vraag_container_style">
+
+            <TextView
+                style="@style/vraag_style"
+                android:text="@string/vraag_7"/>
+            <RadioGroup
+                android:id="@+id/vraag_7_radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/antwoord_7_1"
+                    android:text="@string/antwoord_7_1"
+                    style="@style/vraag_radio_button_style"
+                    />
+                <RadioButton
+                    android:id="@+id/antwoord_7_2"
+                    android:text="@string/antwoord_7_2"
+                    style="@style/vraag_radio_button_style"
+                    />
+                <RadioButton
+                    android:id="@+id/antwoord_7_3"
+                    android:text="@string/antwoord_7_3"
+                    style="@style/vraag_radio_button_style"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+        <Button
+            android:id="@+id/resultaat_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultaat"
+            android:onClick="antwoordCheck"/>
+    </LinearLayout>
+
+    </ScrollView>
+
