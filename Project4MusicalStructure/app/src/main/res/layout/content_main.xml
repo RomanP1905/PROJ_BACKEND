@@ -1,0 +1,74 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"/>
+
+        <include
+            android:id="@+id/player_layout"
+            layout="@layout/player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/player"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:paddingBottom="200dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_artist"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="@string/artist" />
+
+            <Button
+                android:id="@+id/button_album"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="@string/album" />
+
+            <Button
+                android:id="@+id/button_genre"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="@string/genre" />
+
+            <Button
+                android:id="@+id/button_playlist"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="@string/playlist" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

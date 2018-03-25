@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project4MusicalStructure</string>
+    <string name="song_name">Justice - Safe and Sound</string>
+    <string name="album_name">Woman</string>
+
+    <string name="album">Album</string>
+    <string name="playlist">Playlist</string>
+    <string name="artist">Artist</string>
+    <string name="genre">Genre</string>
+
+    <string name="album_text">Album activity here</string>
+    <string name="playlist_text">Playlist activity here</string>
+    <string name="artist_text">Artist activity here</string>
+    <string name="genre_text">Genre activity here</string>
+
+</resources>
